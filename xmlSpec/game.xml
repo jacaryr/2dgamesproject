@@ -1,0 +1,155 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>The Tracker Framework</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<collisionStrategy>PerPixel</collisionStrategy>
+<maxFrames>3000</maxFrames>
+<username>jacaryr</username>
+<numberOfStars>22</numberOfStars>
+
+<menu>
+  <width>854</width>
+  <height>480</height>
+  <noOfOptions>2</noOfOptions>
+  <loc x="0" y="0"/>
+  <msg x="30" y="60"/>
+  <optionLoc x="300" y="100" />
+  <color r="193" g="205" b="205" a="255"/>
+  <backColor r="72" g="95" b="119" a="255"/>
+  <option0>Go to Game</option0>
+  <option1>Respawn Rate:</option1>
+  <spaces>100</spaces>
+</menu>
+
+<clickOn>
+  <file>assets/clickon.png</file>
+  <startLoc x="340" y="170"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</clickOn>
+
+<clickOff>
+  <file>assets/clickoff.png</file>
+  <startLoc x="340" y="170"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</clickOff>
+
+<bullet>
+  <file>assets/bullet.png</file>
+  <transparency>true</transparency>
+  <distance>300</distance>
+  <speed>
+    <y>1300</y>
+    <x>1300</x>
+  </speed>
+  <interval>0</interval>
+</bullet>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>1000</width>
+  <height>600</height>
+</world>
+
+<back2>
+  <file>assets/sunback.png</file>
+  <factor>20</factor>
+  <transparency>false</transparency>
+</back2>
+
+<back>
+  <file>assets/back.png</file>
+  <factor>1</factor>
+  <transparency>true</transparency>
+</back>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<SpinningStar>
+  <file>assets/man2.png</file>
+  <startLoc x="50" y="50"/>
+  <frames>16</frames>
+  <chunk>
+    <size>3</size>
+    <distance>10</distance>
+  </chunk>
+  <frameInterval>50</frameInterval>
+  <speedX>50</speedX>
+  <speedY>50</speedY>
+  <transparency>true</transparency>
+</SpinningStar>
+
+<HealthBar>
+  <startLoc x="110" y="120"/>
+  <hudLoc x="0" y="60"/>
+  <!-- number of times the bar is decremented -->
+  <increment>50</increment>
+  <interval>10</interval>
+  <hHeight>170</hHeight>
+  <hWidth>470</hWidth>
+  <width>300</width>
+  <height>15</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <hudColor>
+    <r>55</r>
+    <g>5</g>
+    <b>55</b>
+    <a>137</a>
+  </hudColor>
+  <backColor>
+    <r>255</r>
+    <g>255</g>
+    <b>255</b>
+    <a>127</a>
+  </backColor>
+  <barColor>
+    <r>255</r>
+    <g>0</g>
+    <b>255</b>
+    <a>255</a>
+  </barColor>
+  <textColor>
+    <r>255</r>
+    <g>0</g>
+    <b>255</b>
+    <a>255</a>
+  </textColor>
+  <fps>
+    <x>30</x>
+    <y>180</y>
+  </fps>
+</HealthBar>
+
+<YellowStar>
+  <file>assets/coolgame.png</file>
+  <startLoc x="400" y="400"/>
+  <speedX>111</speedX>
+  <speedY>211</speedY>
+  <frames>8</frames>
+  <frameInterval>50</frameInterval>
+  <safeDistance>500</safeDistance>
+  <transparency>false</transparency>
+</YellowStar>
+
+</GameData>
